@@ -1,0 +1,15 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()                // for fabric-loom
+        mavenCentral()
+        maven { url "https://maven.fabricmc.net/" }  // Fabric’s Maven
+    }
+}
+dependencyResolutionManagement {
+    repositories {
+        mavenCentral()
+        maven { url "https://maven.fabricmc.net/" }  // loader & API live here
+    }
+}
+
+rootProject.name = "brighter_soul_lights"

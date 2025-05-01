@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "brightersoullights",
+  "version": "1.0.0",
+  "name": "Brighter Soul Lights",
+  "description": "Increases light levels of soul torch, soul lantern, and soul campfire to match regular versions.",
+  "authors": ["Budza0"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.brightersoullights.BrighterSoulLights"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric": "*",
+    "minecraft": "1.21.4"
+  }
+}
